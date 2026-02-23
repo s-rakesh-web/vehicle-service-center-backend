@@ -1,0 +1,1 @@
+package com.servicecenter.repository; import org.springframework.data.jpa.repository.JpaRepository; import com.servicecenter.entity.ServiceBooking; public interface BookingRepository extends JpaRepository<ServiceBooking, Long> {}

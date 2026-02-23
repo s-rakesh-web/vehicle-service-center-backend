@@ -1,0 +1,1 @@
+package com.servicecenter.repository; import org.springframework.data.jpa.repository.JpaRepository; import com.servicecenter.entity.Technician; public interface TechnicianRepository extends JpaRepository<Technician, Long> {}

@@ -1,0 +1,1 @@
+package com.servicecenter.repository; import org.springframework.data.jpa.repository.JpaRepository; import com.servicecenter.entity.SparePart; public interface SparePartRepository extends JpaRepository<SparePart, Long> {}
